@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <title>Kontakt
+    </title>
+</head>
+<body class="body">
+    <header>
+        <nav  aria-label="huvudmeny" class="navbar">
+            <div class="navbar-title">
+                <img src="assets/fwoppy.png" style="width: 30px; padding-left: 1rem;" alt="">
+            </div>
+            <div class="navbar-container">
+                    <a href="index.html">Index</a>
+                    <a href="blog.html">Blogg</a>
+                    <a href="about.html">Om mig</a>
+                    <a href="contact.html">Kontakt</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="introduktion">
+            <div class="main-header">
+                <h1>Kontakt</h1>
+                <img src="assets/lain-dance.gif" alt="" width="120">
+            </div>
+            <article class="intro-article">
+                <div class="paragraph-section">
+                    <p>Behöver du kontakta mig så kan du använda formuläret nedan för att skicka ett meddelande. <br>
+                        Alternativt går jag att kontaktas genom mail som <a href="mailto:libertyofdoom@gmail.com">libertyofdoom@gmail.com</a>.
+                    </p>
+                    <form class="contact">
+                        <div class="contact-content">
+                            <label for="name">Namn</label><br>
+                            <input type="text" id="name" name="name" placeholder="Namn" required>
+                        </div>
+                        <div class="contact-content">
+                            <label for="email">Mejladress</label><br>
+                            <input type="email" id="email" name="email" placeholder="Mejl@Address.com" required>
+                        </div>
+                        <div class="contact-content">
+                            <label for="message">Meddelande</label><br>
+                            <textarea id="message" name="message" rows="6" placeholder="Fyll i meddelandet här." required></textarea>
+                        </div>
+                        <button class="contact-button" type="submit" >Skicka Meddelande</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Senast redigerad 8 Oktober 2026</p>
+        </div>
+    </footer>
+</body>
+</html>

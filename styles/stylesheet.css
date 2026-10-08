@@ -13,6 +13,14 @@ a {
     color: var(--highlighted-text);
 }
 
+header {
+    position: sticky;
+    top: 0px;
+    padding-top: 3px;
+    background-color: var(--charcoal);
+    border-bottom: 1px solid var(--color-border);
+}
+
 body {
     height: 100%;
     min-height: 100vh;
@@ -20,14 +28,6 @@ body {
     background-color: var(--charcoal);
     display: flex;
     flex-direction: column;
-}
-
-header {
-    position: sticky;
-    top: 0px;
-    padding-top: 3px;
-    background-color: var(--charcoal);
-    border-bottom: 1px solid var(--color-border);
 }
 
 .navbar{
@@ -40,12 +40,13 @@ header {
 }
 
 .navbar-logo-img {
-    size: 5;
+    resize: 5;
 }
 
 main {
     position: static;
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     justify-content: center;
     color:rgb(255, 235, 243);
@@ -69,7 +70,7 @@ main {
 }
 
 .bio-article {
-    display: flex table-column;
+    display: flex;
     
 }
 
@@ -83,5 +84,18 @@ footer {
     margin-top: 2vw;
     color:white;
     border-top: 1px solid var(--color-border);
-    position: static;
+    position: static; 
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content {
+    padding-bottom: 1rem;
+}
+
+.contact-button {
+    width: 10rem;
 }
